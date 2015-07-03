@@ -88,6 +88,9 @@ Your opening braces go on the same line as the statement.
 if (true) {
 	console.log('winning');
 }
+else {
+	console.error('losing');
+}
 ```
 
 *Wrong:*
@@ -95,11 +98,26 @@ if (true) {
 ```js
 if (true)
 {
-	console.log('losing');
+	console.log('winning');
+}
+else
+{
+	console.error('losing');
 }
 ```
 
-Also, notice the use of whitespace before and after the condition statement.
+*Still Wrong:*
+
+```js
+if (true) {
+	console.log('winning');
+} else {
+	console.error('losing');
+}
+```
+
+Also, notice the use of whitespace before and after the condition statement,
+and the newline preceeding `else`.
 
 ## Method chaining
 
