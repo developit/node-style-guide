@@ -1,4 +1,7 @@
-# Node.js Style Guide
+# Node.js Style Guide for 2015
+
+> This is a fork of [felixge/node-style-guide](https://github.com/felixge/node-style-guide)
+> that attempts to account for some emergent patterns in my ES6/ES2015 codebases.
 
 This is a guide for writing consistent and aesthetically pleasing node.js code.
 It is inspired by what is popular within the community, and flavored with some
@@ -8,7 +11,7 @@ There is a .jshintrc which enforces these rules as closely as possible. You can
 either use that and adjust it, or use
 [this script](https://gist.github.com/kentcdodds/11293570) to make your own.
 
-This guide was created by [Felix Geisendörfer](http://felixge.de/) and is
+This guide was originally created by [Felix Geisendörfer](http://felixge.de/) and is
 licensed under the [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
 license. You are encouraged to fork this repository and make adjustments
 according to your preferences.
